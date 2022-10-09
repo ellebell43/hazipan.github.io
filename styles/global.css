@@ -18,10 +18,13 @@
   --invert: 1;
 }
 
-body {
+:root {
   --transition: all 0.25s ease-out;
   font-family: 'Raleway', sans-serif;
   font-size: calc(15px + 0.390625vw);
+}
+
+body {
   display: block;
   padding: 1rem;
   margin: none;

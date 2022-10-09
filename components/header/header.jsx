@@ -37,7 +37,7 @@ const Header = () => {
   }
 
   return (
-    <header>
+    <header className={styles.header}>
       {/* Theme switch button */}
       <button className={styles.themeBtn} type="button" onClick={changeTheme}>
         <FontAwesomeIcon icon={faMoon} className={styles.moon} id="moonIcon" />
